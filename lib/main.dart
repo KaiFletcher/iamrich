@@ -1,4 +1,7 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(
@@ -13,8 +16,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://content.propstore.com/auction/la2018/listings/91463/img05.jpg'),
+            image: AssetImage('image/diamond.png'),
           ),
         ),
       ),
